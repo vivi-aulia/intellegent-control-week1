@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-# Load the YOLO model
 model = YOLO("yolov5s.pt")  # Pastikan Anda memiliki model YOLO yang sesuai
+
 
 # Open the webcam
 cap = cv2.VideoCapture(0)  # Ganti dengan URL kamera jika perlu
